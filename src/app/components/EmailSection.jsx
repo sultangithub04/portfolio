@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { FaWhatsapp, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -46,6 +47,7 @@ const EmailSection = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
+      
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
@@ -55,6 +57,28 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
+          {/* Contact Info */}
+          <div className="flex-1 p-6 rounded-lg shadow-md">
+          <h3 className="text-xl font-semibold text-white mb-4">Location & Contact</h3>
+          <div className="space-y-4">
+            <div className="flex items-center gap-4">
+              <FaMapMarkerAlt className="text-white text-xl" />
+              <span className="text-gray-400">Location: Uttara, Dhaka, Bangladesh</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaEnvelope className="text-white text-xl" />
+              <span className="text-gray-400">Email: sult_04@yahoo.com</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaPhoneAlt className="text-white text-xl" />
+              <span className="text-gray-400">Phone: +8801750000469</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaWhatsapp className="text-white text-xl" />
+              <span className="text-gray-400">WhatsApp: +8801750000469</span>
+            </div>
+          </div>
+        </div>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/sultangithub04">
             <Image src={GithubIcon} alt="Github Icon" />
@@ -84,7 +108,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="sultan@gmail.com"
               />
             </div>
             <div className="mb-6">

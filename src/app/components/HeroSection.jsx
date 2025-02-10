@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          A Full-Stack Web Developer Welcome to my digital playground! I'm Sultan, a passionate Full-Stack Web Developer dedicated to turning your ideas into captivating online experiences. Skills That Set Me Apart: Frontend Development: HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS.
+            A Full-Stack Web Developer Welcome to my digital playground! I'm Sultan, a passionate Full-Stack Web Developer dedicated to turning your ideas into captivating online experiences. Skills That Set Me Apart: Frontend Development: HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS.
           </p>
           <div>
             <Link
@@ -46,14 +46,23 @@ const HeroSection = () => {
             >
               Hire Me
             </Link>
-            <Link
+            {/* <Link
               href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </Link> */}
+            <a
+              href="/cv.pdf"
+              download
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Download CV
+              </span>
+            </a>
           </div>
         </motion.div>
         <motion.div

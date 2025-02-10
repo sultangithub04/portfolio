@@ -29,10 +29,11 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl text-white font-semibold bg-[#1818183b]"
         >
           <Image 
-          className="rounded-full"
+          // className=" transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          className="rounded-full "
              src="/logo.png" 
              alt="logo" 
              width={50} 
