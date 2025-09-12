@@ -68,6 +68,15 @@ const projectsData = [
     gitUrl: "https://github.com/sultangithub04/carDoctor",
     previewUrl: "https://nextjs-car-doctor-green.vercel.app/",
   },
+  {
+    id: 7,
+    title: "Full-stack Roadmap Next.js",
+    description: "Project  next.js applying crud with mongodb",
+    image: "/images/projects/quickpay.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/sultangithub04/quickpayfont",
+    previewUrl: "https://quickpayfont.vercel.app",
+  },
 ];
 
 const ProjectsSection = () => {
