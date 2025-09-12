@@ -26,9 +26,9 @@ const HeroSection = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "Next.js Developer",
+                "Next.js ",
                 1000,
-                "react.js Developer",
+                "react.js ",
                 1000,
               ]}
               wrapper="span"
@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            A Full-Stack Web Developer Welcome to my digital playground! I'm Sultan, a passionate Full-Stack Web Developer dedicated to turning your ideas into captivating online experiences. Skills That Set Me Apart: Frontend Development: HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS.
+            A Full-Stack Web Developer Welcome to my digital playground! I'm Sultan, a passionate Full-Stack Web Developer dedicated to turning your ideas into captivating online experiences. Skills That Set Me Apart: Frontend Development & Backend Development: HTML, CSS, javascripts, typescripts, taiwindcss, firebase, JWT, Axios react.js, next.js, node.js, express.js, prisma, Docker, AWS, graphQl, redux, monogodb, mongoose, sql,postgresql.
           </p>
           <div>
             <Link
