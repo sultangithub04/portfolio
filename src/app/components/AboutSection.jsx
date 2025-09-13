@@ -51,6 +51,30 @@ const AboutSection = () => {
     });
   };
 
+//   const skills = {
+//   Frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "React.js", "Next.js"],
+//   Backend: ["Node.js", "Express.js", "Prisma", "GraphQL", "Docker"],
+//   Databases: ["MongoDB", "Mongoose", "SQL", "PostgreSQL"],
+//   Tools: ["Firebase", "JWT Authentication", "Axios", "Redux", "AWS"],
+// };
+    // <section className="py-12 bg-white px-6">
+    //   <h2 className="text-3xl font-bold text-center text-gray-900">
+    //     🚀 Skills That Set Me Apart
+    //   </h2>
+    //   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+    //     {Object.entries(skills).map(([category, list]) => (
+    //       <div key={category} className="p-6 rounded-xl shadow bg-gray-50">
+    //         <h3 className="text-xl font-semibold text-indigo-600">{category}</h3>
+    //         <ul className="mt-3 space-y-1 text-gray-700">
+    //           {list.map((skill) => (
+    //             <li key={skill}>• {skill}</li>
+    //           ))}
+    //         </ul>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </section>
+
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">

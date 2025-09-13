@@ -7,11 +7,11 @@ import Link from "next/link";
 
 const HeroSection = () => {
   const skills = {
-    Frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "React.js", "Next.js"],
-    Backend: ["Node.js", "Express.js", "Prisma", "GraphQL", "Docker"],
-    Databases: ["MongoDB", "Mongoose", "SQL", "PostgreSQL"],
-    Tools: ["Firebase", "JWT Authentication", "Axios", "Redux", "AWS"],
-  };
+  Frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "React.js", "Next.js"],
+  Backend: ["Node.js", "Express.js", "Prisma", "GraphQL", "Docker"],
+  Databases: ["MongoDB", "Mongoose", "SQL", "PostgreSQL"],
+  Tools: ["Firebase", "JWT Authentication", "Axios", "Redux", "AWS"],
+};
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -46,23 +46,9 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <section className="py-12 bg-white px-6">
-            <h2 className="text-3xl font-bold text-center text-gray-900">
-              🚀 Skills That Set Me Apart
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-              {Object.entries(skills).map(([category, list]) => (
-                <div key={category} className="p-6 rounded-xl shadow bg-gray-50">
-                  <h3 className="text-xl font-semibold text-indigo-600">{category}</h3>
-                  <ul className="mt-3 space-y-1 text-gray-700">
-                    {list.map((skill) => (
-                      <li key={skill}>• {skill}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+           A Full-Stack Web Developer. Welcome to my digital playground! I'm Sultan, a passionate Full-Stack Web Developer dedicated to turning your ideas into captivating online experiences. Skills that set me apart include frontend and backend development: HTML, CSS, JavaScript, TypeScript, TailwindCSS, Firebase, JWT, Axios, React.js, Next.js, Node.js, Express.js, Prisma, Docker, AWS, GraphQL, Redux, MongoDB, Mongoose, SQL, PostgreSQL, and many more.
+          </p>
           <div>
             <Link
               href="/#contact"
