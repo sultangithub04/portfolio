@@ -19,7 +19,7 @@ const TAB_DATA = [
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
           {Object.entries(skills).map(([category, list]) => (
             <div key={category} className="">
-              <h3 className="font-semibold text-purple-600">{category}</h3>
+              <h3 className="font-semibold text-purple-400">{category}</h3>
               <ul className="mt-3 space-y-1 text-gray-100">
                 {list.map((skill) => (
                   <li key={skill}>• {skill}</li>
@@ -75,7 +75,7 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} alt="image" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base">
             I’m Sultan, a passionate Full-Stack Web Developer skilled in frontend and backend technologies like React.js, Next.js, Node.js, Express.js, Prisma, PostgreSQL, MongoDB, Docker, AWS, and many more — crafting ideas into engaging online experiences.
           </p>
           <div className="flex flex-row justify-start mt-8">
