@@ -4,7 +4,7 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 
 const skills = {
-  Frontend: ["TypeScript", "Tailwind CSS", "React.js", "Next.js"],
+  Frontend: ["HTML & CSS", "JavaScript", "TypeScript", "Tailwind CSS", "React.js", "Next.js"],
   Backend: ["Node.js", "Express.js", "Prisma", "GraphQL", "Docker"],
   Databases: ["MongoDB", "Mongoose", "SQL", "PostgreSQL"],
   Tools: ["Firebase", "JWT Authentication", "Axios", "Redux", "AWS"],
@@ -19,7 +19,7 @@ const TAB_DATA = [
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
           {Object.entries(skills).map(([category, list]) => (
             <div key={category} className="">
-              <h3 className="font-semibold rgb(168,85,247)">{category}</h3>
+              <h3 className="font-semibold text-indigo-600">{category}</h3>
               <ul className="mt-3 space-y-1 text-gray-100">
                 {list.map((skill) => (
                   <li key={skill}>• {skill}</li>
@@ -36,7 +36,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>B.Sc (Honor's) in Physics, M.Sc</li>
+        <li>M.Sc, B.Sc (Honor's) in Physics</li>
         <li>University of Rajshahi, Bangladesh</li>
       </ul>
     ),
@@ -46,9 +46,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Next.js and React.js form programing hero</li>
+        <li>Complete Web Development form programing hero</li>
+        <li>Next Level Web development form programing hero</li>
+        <li>JavaScripts from upwork</li>
         <li>wordpress from upwork</li>
-        <li>Next.js and React.js form programing hero</li>
         <li>CCNA</li>
       </ul>
     ),
