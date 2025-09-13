@@ -77,6 +77,15 @@ const projectsData = [
     gitUrl: "https://github.com/sultangithub04/quickpayfont",
     previewUrl: "https://quickpayfont.vercel.app",
   },
+  {
+    id: 8,
+    title: "Full-stack Roadmap Next.js",
+    description: "Project  next.js applying crud with mongodb",
+    image: "/images/projects/picseek.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/sultangithub04/pic-seek-client",
+    previewUrl: "https://crack-ai-server-40a76.web.app",
+  },
 ];
 
 const ProjectsSection = () => {
