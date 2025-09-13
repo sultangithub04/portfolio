@@ -4,7 +4,7 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 
 const skills = {
-  Frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "Tailwind CSS", "React.js", "Next.js"],
+  Frontend: ["TypeScript", "Tailwind CSS", "React.js", "Next.js"],
   Backend: ["Node.js", "Express.js", "Prisma", "GraphQL", "Docker"],
   Databases: ["MongoDB", "Mongoose", "SQL", "PostgreSQL"],
   Tools: ["Firebase", "JWT Authentication", "Axios", "Redux", "AWS"],
@@ -19,7 +19,7 @@ const TAB_DATA = [
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
           {Object.entries(skills).map(([category, list]) => (
             <div key={category} className="">
-              <h3 className="font-semibold text-indigo-600">{category}</h3>
+              <h3 className="font-semibold rgb(168,85,247)">{category}</h3>
               <ul className="mt-3 space-y-1 text-gray-100">
                 {list.map((skill) => (
                   <li key={skill}>• {skill}</li>

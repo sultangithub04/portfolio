@@ -70,8 +70,8 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Full-stack Roadmap Next.js",
-    description: "Project  next.js applying crud with mongodb",
+    title: "Digital wallet project with react.js",
+    description: "Digital wallet system with react.js",
     image: "/images/projects/quickpay.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sultangithub04/quickpayfont",
@@ -79,8 +79,8 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Full-stack Roadmap Next.js",
-    description: "Project  next.js applying crud with mongodb",
+    title: "Full-stack project React.js",
+    description: "Picture Generate by AI",
     image: "/images/projects/picseek.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sultangithub04/pic-seek-client.",
