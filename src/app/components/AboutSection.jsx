@@ -15,12 +15,12 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <section className="py-12">
+      <section className="">
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
           {Object.entries(skills).map(([category, list]) => (
             <div key={category} className="">
               <h3 className="font-semibold text-indigo-600">{category}</h3>
-              <ul className="mt-3 space-y-1 text-gray-700">
+              <ul className="mt-3 space-y-1 text-gray-100">
                 {list.map((skill) => (
                   <li key={skill}>• {skill}</li>
                 ))}
